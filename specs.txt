@@ -1,0 +1,13 @@
+Ping Pong specs
+
+The Ping-Pong method counts from 1 to a given number.
+For example, we expect an input of 2 to return the ArrayList: [1, 2].
+
+The Ping-Pong method pushes "ping" to the array instead of an integer when the integer is divisible by 3 (but not by 15).
+For example, we expect an input of 3 to return the ArrayList: [1, 2, "ping"].
+
+The Ping-Pong method pushes "pong" to the array instead of an integer when the integer is divisible by 5 (but not by 15).
+For example, we expect an input of 3 to return the ArrayList: [1, 2, "ping", 4, "pong"].
+
+The Ping-Pong method pushes "pingpong" to the array instead of an integer when the integer is divisible by 15.
+For example, we expect an input of 30 to return the ArrayList: [1, 2, "ping", 4, "pong" ... 13, 14, "pingpong"].
