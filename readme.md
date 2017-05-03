@@ -13,6 +13,7 @@
   	Numbers divisible by 3 become "ping", numbers divisible by 5 become "pong", numbers divisible by 3 and 5 become "pingpong".
 	The unit testing of the backend is done using jUnit. 
 	All testing dependencies were managed using Gradle. 
+	No database backing.
 
 #### _Setup/Installation Requirements_	 
 	Clone this repository
